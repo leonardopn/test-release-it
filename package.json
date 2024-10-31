@@ -1,0 +1,46 @@
+{
+	"name": "@leonardopn/test-release-it",
+	"version": "1.2.1",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/leonardopn/test-release-it.git"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://npm.pkg.github.com"
+	},
+	"scripts": {
+		"start:dev": "nodemon ./src/index.ts",
+		"deploy:beta": "release-it --ci --preRelease=beta",
+		"deploy:prod": "release-it --ci"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@release-it/conventional-changelog": "^9.0.2",
+		"nodemon": "^3.1.7",
+		"release-it": "^17.10.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.3"
+	},
+	"release-it": {
+		"npm": {
+			"publish": true
+		},
+		"git": {
+			"requireCleanWorkingDir": false,
+			"tagName": "v${version}"
+		},
+		"github": {
+			"release": true,
+			"tokenRef": "GITHUB_TOKEN",
+			"releaseName": "v${version}"
+		},
+		"plugins": {
+			"@release-it/conventional-changelog": {
+				"preset": "conventionalcommits",
+				"infile": "CHANGELOG.md"
+			}
+		}
+	}
+}
