@@ -12,7 +12,7 @@ export default {
 	},
 	git: {
 		tagName: "v${version}",
-		commitMessage: "chore(release): v${version} [skip ci]",
+		commitMessage: "Release: v${version} [skip ci]",
 		tagAnnotation: "v${version}",
 		push: true,
 		commit: true,
@@ -60,7 +60,7 @@ export default {
 				],
 			},
 			infile: "CHANGELOG.md",
-			header: "# Changelog\n\nTodos os lançamentos.",
+			header: "# Changelog",
 			gitRawCommitsOpts: {
 				format: `%s (%cn) ([%h](${repository.url.replaceAll(/(\.git)|(git\+)/g, "")}/commit/%h))`,
 			},
