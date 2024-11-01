@@ -1,0 +1,41 @@
+steps:
+    # Configura o ~/.npmrc com o token de acesso ao repositório privado
+    - name: "node:20"
+      entrypoint: "bash"
+      id: "configure-npm-rc"
+      args:
+          - "-c"
+          - |-
+              printf "//npm.pkg.github.com/:_authToken=$$GH_PACKAGES_TOKEN\n@leonardopn:registry=https://npm.pkg.github.com" > ~/.npmrc
+      secretEnv: ["GH_PACKAGES_TOKEN"]
+
+    - name: node:20
+      id: install
+      entrypoint: yarn
+      args:
+          - install
+
+    - name: node:20
+      id: deploy
+      entrypoint: bash
+      args:
+          - -c
+          - ./scripts/deploy.sh $BRANCH_NAME $$GH_PACKAGES_TOKEN
+
+    - name: node:20
+      id: deploy
+      entrypoint: bash
+      args:
+          - -c
+          - ./scripts/mergeMainIntoBeta.sh $BRANCH_NAME
+
+options:
+    defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
+
+# define um timeout de 40 minutos para a execução
+timeout: 2400s
+
+availableSecrets:
+    secretManager:
+        - versionName: projects/111805055898/secrets/GH_PACKAGES_TOKEN/versions/latest
+          env: "GH_PACKAGES_TOKEN"
