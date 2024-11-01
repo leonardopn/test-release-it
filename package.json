@@ -41,7 +41,42 @@
 			"@release-it/conventional-changelog": {
 				"preset": "angular",
 				"infile": "CHANGELOG.md",
-				"header": "# Changelog"
+				"header": "# Changelog\n\nTodos os lançamentos.\n\n",
+				"releaseCommitMessage": "chore(release): ${version} [skip ci]",
+				"types": [
+					{
+						"type": "feat",
+						"section": "✨ Novos Recursos"
+					},
+					{
+						"type": "fix",
+						"section": "🐛 Correções de Bugs"
+					},
+					{
+						"type": "chore",
+						"section": "🔧 Outras Tarefas"
+					},
+					{
+						"type": "docs",
+						"section": "📝 Documentação"
+					},
+					{
+						"type": "style",
+						"section": "💄 Estilo"
+					},
+					{
+						"type": "refactor",
+						"section": "♻️ Refatoração"
+					},
+					{
+						"type": "perf",
+						"section": "⚡️ Desempenho"
+					},
+					{
+						"type": "test",
+						"section": "✅ Testes"
+					}
+				]
 			}
 		}
 	}
