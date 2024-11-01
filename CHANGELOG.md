@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.5.0](https://github.com/leonardopn/test-release-it/compare/v1.4.0...v1.5.0) (2024-11-01)
+
+### ✨ Novos Recursos
+
+* **Module: Firebase:** :sparkles: Cria um novo módulo (Leonardo Petta do Nascimento) ([99a3d65](https://github.com/leonardopn/test-release-it/commit/99a3d65))
+
 ## [1.4.0](https://github.com/leonardopn/test-release-it/compare/v1.3.3...v1.4.0) (2024-11-01)
 
 ### ✨ Novos Recursos
