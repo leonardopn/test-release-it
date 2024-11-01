@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.4.0](https://github.com/leonardopn/test-release-it/compare/v1.3.3...v1.4.0) (2024-11-01)
+
+### ✨ Novos Recursos
+
+* :safety_vest: Adiciona novas validações para a v2 do firebase (Leonardo Petta do Nascimento) ([94c598e](https://github.com/leonardopn/test-release-it/commit/94c598e))
+* **Module: Math:** :sparkles: Criação do novo módulo (Leonardo Petta do Nascimento) ([398e1a8](https://github.com/leonardopn/test-release-it/commit/398e1a8))
+
+### 🔧 Outras Tarefas
+
+* :hammer: Atualiza o script de deploy de beta (Leonardo Petta do Nascimento) ([7b05a50](https://github.com/leonardopn/test-release-it/commit/7b05a50))
+
 ## [1.3.3](https://github.com/leonardopn/test-release-it/compare/v1.3.2...v1.3.3) (2024-11-01)
 
 ### 🔧 Outras Tarefas
