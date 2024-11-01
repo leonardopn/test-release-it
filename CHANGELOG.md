@@ -2,6 +2,14 @@
 
 Todos os lançamentos.
 
+
+
+## [1.1.0-beta.3](https://github.com/leonardopn/test-release-it/compare/v1.1.0-beta.2...v1.1.0-beta.3) (2024-11-01)
+
+### 🔧 Outras Tarefas
+
+* :triangular_flag_on_post: Corrige changelog desde o início ([c858126](https://github.com/leonardopn/test-release-it/commit/c858126d95015c17a59c59799898ec0bcb44dbe2))
+
 ## [1.1.0-beta.2](https://github.com/leonardopn/test-release-it/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2024-11-01)
 
 ### ✨ Novos Recursos
