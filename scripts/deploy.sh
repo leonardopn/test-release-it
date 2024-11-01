@@ -4,6 +4,7 @@ configureGit() {
     git remote rm origin
     git remote add origin https://$1@github.com/leonardopn/test-release-it.git
     git symbolic-ref HEAD refs/heads/$2
+    git push --set-upstream origin $2
 
     GITHUB_TOKEN=$1 yarn deploy:$3
 }
