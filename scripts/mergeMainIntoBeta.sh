@@ -6,7 +6,7 @@ git fetch origin
 # Cria um merge da branch master na branch beta, resolvendo conflitos
 # de forma que as modificações da master sempre saiam na frente
 git checkout beta
-git merge -X theirs master
+git merge --no-ff -X theirs master
 
 # Adiciona todas as alterações
 git add .
