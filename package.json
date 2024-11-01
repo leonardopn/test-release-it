@@ -82,7 +82,10 @@
 					]
 				},
 				"infile": "CHANGELOG.md",
-				"header": "# Changelog\n\nTodos os lançamentos."
+				"header": "# Changelog\n\nTodos os lançamentos.",
+				"gitRawCommitsOpts": {
+					"format": "%B%n-hash-%n%H%n-gitTags-%n%d%n-committerDate-%n%ci %s (%an)"
+				}
 			}
 		}
 	}
