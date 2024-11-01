@@ -2,6 +2,16 @@
 
 Todos os lançamentos.
 
+## [1.3.0](https://github.com/leonardopn/test-release-it/compare/v1.2.0...v1.3.0) (2024-11-01)
+
+### ✨ Novos Recursos
+
+* **Module: Math:** :sparkles: Criação do novo módulo (Leonardo Petta do Nascimento) ([24e165e](https://github.com/leonardopn/test-release-it/commit/24e165e))
+
+### 🔧 Outras Tarefas
+
+* **release:** v1.3.0-beta.0 [skip ci] (Leonardo Petta do Nascimento) ([f5b67e8](https://github.com/leonardopn/test-release-it/commit/f5b67e8))
+
 ## [1.2.0](https://github.com/leonardopn/test-release-it/compare/v1.1.0...v1.2.0) (2024-11-01)
 
 ### ✨ Novos Recursos
