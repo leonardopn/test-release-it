@@ -82,7 +82,7 @@
 					]
 				},
 				"infile": "CHANGELOG.md",
-				"header": "# Changelog\n\nTodos os lançamentos.\n\n"
+				"header": "# Changelog\n\nTodos os lançamentos."
 			}
 		}
 	}
