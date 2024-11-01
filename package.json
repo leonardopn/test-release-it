@@ -17,9 +17,9 @@
 	},
 	"type": "module",
 	"devDependencies": {
+		"@release-it/conventional-changelog": "^9.0.2",
 		"nodemon": "^3.1.7",
 		"release-it": "^17.10.0",
-		"release-it-changelogen": "^0.1.0",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.6.3"
 	},
@@ -37,14 +37,14 @@
 			"commitMessage": "chore(release): v${version} [skip ci]",
 			"tagAnnotation": "v${version}"
 		},
+		"hooks": {
+			"after:bump": "git shortlog -sne | cut -f2- | sort -u >> CHANGELOG.md"
+		},
 		"plugins": {
-			"release-it-changelogen": {
-				"disableVersion": true,
-				"templates": {
-					"commitMessage": "chore(release): v{{newVersion}} [skip ci]",
-					"tagMessage": "v{{newVersion}}",
-					"tagBody": "v{{newVersion}}"
-				}
+			"@release-it/conventional-changelog": {
+				"preset": "angular",
+				"infile": "CHANGELOG.md",
+				"header": "# Changelog"
 			}
 		}
 	}
