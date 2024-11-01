@@ -2,7 +2,34 @@
 
 Todos os lançamentos.
 
+## [1.2.0](https://github.com/leonardopn/test-release-it/compare/v1.1.0...v1.2.0) (2024-11-01)
 
+### ✨ Novos Recursos
+
+* **Module: Boolean:** :sparkles: Cria a nova versão do módulo (Leonardo Petta do Nascimento) ([6ebc134](https://github.com/leonardopn/test-release-it/commit/6ebc134))
+
+### 🐛 Correções de Bugs
+
+* :ambulance: Corrige erro critico na main (Leonardo Petta do Nascimento) ([af5031e](https://github.com/leonardopn/test-release-it/commit/af5031e))
+
+### 🔧 Outras Tarefas
+
+* :art: Remove espaços extras entre o header e o conteúdo do changelog (Leonardo Petta do Nascimento) ([318ac12](https://github.com/leonardopn/test-release-it/commit/318ac12))
+* :construction: Adiciona tempo e hash do commit junto ao formatador do changelog (Leonardo Petta do Nascimento) ([20d6745](https://github.com/leonardopn/test-release-it/commit/20d6745))
+* :construction: Tenta formatar o commit do changelog com o autor dentro (Leonardo Petta do Nascimento) ([b866dd5](https://github.com/leonardopn/test-release-it/commit/b866dd5))
+* :construction: Tenta formatar o commit do changelog com o autor dentro com outro formato (Leonardo Petta do Nascimento) ([0be21f6](https://github.com/leonardopn/test-release-it/commit/0be21f6))
+* :passport_control: Da permissão de execução para o script `mergeMainIntoBeta.sh` (Leonardo Petta do Nascimento) ([d586bf5](https://github.com/leonardopn/test-release-it/commit/d586bf5))
+* :wrench: Cria um arquivo próprio para o release-it (Leonardo Petta do Nascimento) ([11127af](https://github.com/leonardopn/test-release-it/commit/11127af))
+* :wrench: Remove a data do commit do changelog (Leonardo Petta do Nascimento) ([132acc4](https://github.com/leonardopn/test-release-it/commit/132acc4))
+* **release:** v1.2.0-beta.0 [skip ci] (Leonardo Petta do Nascimento) ([0b4049f](https://github.com/leonardopn/test-release-it/commit/0b4049f))
+* **release:** v1.2.0-beta.1 [skip ci] (Leonardo Petta do Nascimento) ([8afeba1](https://github.com/leonardopn/test-release-it/commit/8afeba1))
+* **release:** v1.2.0-beta.2 [skip ci] (Leonardo Petta do Nascimento) ([2597bb9](https://github.com/leonardopn/test-release-it/commit/2597bb9))
+* **release:** v1.2.0-beta.3 [skip ci] (Leonardo Petta do Nascimento) ([1fedfc3](https://github.com/leonardopn/test-release-it/commit/1fedfc3))
+* **release:** v1.2.0-beta.4 [skip ci] (Leonardo Petta do Nascimento) ([23e5be8](https://github.com/leonardopn/test-release-it/commit/23e5be8))
+
+### 💄 Estilo
+
+* :art: Aplica prettier no projeto todo (Leonardo Petta do Nascimento) ([0d88e2f](https://github.com/leonardopn/test-release-it/commit/0d88e2f))
 
 ## [1.1.0](https://github.com/leonardopn/test-release-it/compare/v1.0.0...v1.1.0) (2024-11-01)
 ## [1.1.0-beta.4](https://github.com/leonardopn/test-release-it/compare/v1.0.0...v1.1.0) (2024-11-01)
