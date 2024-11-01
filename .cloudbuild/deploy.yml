@@ -21,6 +21,7 @@ steps:
       args:
           - -c
           - ./scripts/deploy.sh $BRANCH_NAME $$GH_PACKAGES_TOKEN
+      secretEnv: ["GH_PACKAGES_TOKEN"]
 
     - name: node:20
       id: merge-master-into-beta
