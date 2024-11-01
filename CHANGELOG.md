@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.5.1](https://github.com/leonardopn/test-release-it/compare/v1.5.0...v1.5.1) (2024-11-01)
+
+### 🐛 Correções de Bugs
+
+* :ambulance: Corrige uma falha critica no módulo numberv2 (Leonardo Petta do Nascimento) ([e697cd5](https://github.com/leonardopn/test-release-it/commit/e697cd5))
+
 ## [1.5.0](https://github.com/leonardopn/test-release-it/compare/v1.4.0...v1.5.0) (2024-11-01)
 
 ### ✨ Novos Recursos
