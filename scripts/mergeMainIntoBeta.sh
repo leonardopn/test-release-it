@@ -12,7 +12,7 @@ git merge --no-ff -X theirs master
 git add .
 
 # Cria um commit com a mensagem desejada
-git commit -m "Merge branch 'master' into beta [skip ci]"
+git commit -m "Merge branch 'master' into beta [skip ci]" -n
 
 # Faz push para o repositório remoto
 git push origin beta
