@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.3](https://github.com/leonardopn/test-release-it/compare/v1.3.2...v1.3.3) (2024-11-01)
+
+### 🔧 Outras Tarefas
+
+* :hammer: Atualiza o deploy:prod (Leonardo Petta do Nascimento) ([6b2eb55](https://github.com/leonardopn/test-release-it/commit/6b2eb55))
+
 ## [1.3.2](https://github.com/leonardopn/test-release-it/compare/v1.3.1...v1.3.2) (2024-11-01)
 
 ### 🔧 Outras Tarefas
