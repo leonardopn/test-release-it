@@ -19,6 +19,7 @@ export default {
 		tag: true,
 		requireCommits: false,
 		requireCleanWorkingDir: false,
+		requireUpstream: false,
 	},
 	plugins: {
 		"@release-it/conventional-changelog": {
