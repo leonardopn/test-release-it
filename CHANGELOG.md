@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.2](https://github.com/leonardopn/test-release-it/compare/v1.3.1...v1.3.2) (2024-11-01)
+
+### 🔧 Outras Tarefas
+
+* :bug: Corrige o script de merge manter na beta (Leonardo Petta do Nascimento) ([fa03978](https://github.com/leonardopn/test-release-it/commit/fa03978))
+
 ## [1.3.1](https://github.com/leonardopn/test-release-it/compare/v1.3.0...v1.3.1) (2024-11-01)
 
 ### 🔧 Outras Tarefas
