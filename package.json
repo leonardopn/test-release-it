@@ -13,7 +13,7 @@
 	"scripts": {
 		"start:dev": "nodemon ./src/index.ts",
 		"deploy:beta": "release-it --ci --preRelease=beta --no-plugins.@release-it/conventional-changelog.infile",
-		"deploy:prod": "release-it --ci"
+		"deploy:prod": "release-it --ci --git.tagExclude='*[-]*'"
 	},
 	"type": "module",
 	"devDependencies": {
