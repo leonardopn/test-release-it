@@ -37,9 +37,6 @@
 			"commitMessage": "chore(release): v${version} [skip ci]",
 			"tagAnnotation": "v${version}"
 		},
-		"hooks": {
-			"after:bump": "git shortlog -sne | cut -f2- | sort -u >> CHANGELOG.md"
-		},
 		"plugins": {
 			"@release-it/conventional-changelog": {
 				"preset": "angular",
