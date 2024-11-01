@@ -1,20 +1,22 @@
 #!/bin/bash
 
 configureGit() {
-    git remote rm origin
-    git remote add origin https://$1@github.com/leonardopn/test-release-it.git
-    git symbolic-ref HEAD refs/heads/$2
-    git push --set-upstream origin $2
+    git config --global user.name "GCP CI Bot"
+    git config --global user.email "gcp@ci.com"
 
-    GITHUB_TOKEN=$1 yarn deploy:$3
+    git remote set-url origin https://$1@github.com/leonardopn/test-release-it.git
+
+    git fetch --prune --unshallow
+
+    GITHUB_TOKEN=$1 yarn deploy:$2
 }
 
 case $1 in
 master)
-    configureGit $2 $1 prod
+    configureGit $2 prod
     ;;
 beta)
-    configureGit $2 $1 beta
+    configureGit $2 beta
     ;;
 *)
     printf "Parâmetro inválido, uso correto: build [beta | main]" >&2
