@@ -8,15 +8,17 @@ configureGit() {
 
     git fetch --prune --unshallow
 
-    GITHUB_TOKEN=$1 yarn deploy:$2
+    git checkout $2
+
+    GITHUB_TOKEN=$1 yarn deploy:$3
 }
 
 case $1 in
 master)
-    configureGit $2 prod
+    configureGit $2 $1 prod
     ;;
 beta)
-    configureGit $2 beta
+    configureGit $2 $1 beta
     ;;
 *)
     printf "Parâmetro inválido, uso correto: build [beta | main]" >&2
