@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/leonardopn/test-release-it/compare/v1.3.0...v1.3.1) (2024-11-01)
+
+### 🔧 Outras Tarefas
+
+* :hammer: Modifica o script de merge para evitar abertura de edição de mensagem (Leonardo Petta do Nascimento) ([eae12df](https://github.com/leonardopn/test-release-it/commit/eae12df))
+* :wrench: Remove o chore da mensagem de commit para release (Leonardo Petta do Nascimento) ([b196846](https://github.com/leonardopn/test-release-it/commit/b196846))
+
 Todos os lançamentos.
 
 ## [1.3.0](https://github.com/leonardopn/test-release-it/compare/v1.2.0...v1.3.0) (2024-11-01)
