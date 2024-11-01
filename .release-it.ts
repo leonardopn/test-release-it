@@ -62,7 +62,7 @@ export default {
 			infile: "CHANGELOG.md",
 			header: "# Changelog\n\nTodos os lançamentos.",
 			gitRawCommitsOpts: {
-				format: `%s (%cn) ([%h](${repository.url.replaceAll(/(\.git)|(git\+)/g, "")}/commit/%h)) [%ai]`,
+				format: `%s (%cn) ([%h](${repository.url.replaceAll(/(\.git)|(git\+)/g, "")}/commit/%h))`,
 			},
 		},
 	},
